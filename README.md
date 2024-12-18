@@ -1,2 +1,43 @@
-# netflix-content-insights
-Analyse des données Netflix pour explorer les films et séries. Le projet couvre des questions sur le nombre de titres, les réalisateurs les plus prolifiques, la répartition films/séries de 2015 à 2021, et la croissance mensuelle des genres. Utilisation de Python pour l'analyse et la visualisation des données.
+# Netflix Data Analysis
+
+## Description
+
+Ce projet explore le jeu de données des films et séries disponibles sur Netflix, en analysant divers aspects du contenu de la plateforme. L'analyse couvre des questions allant du niveau débutant au niveau avancé, offrant ainsi un aperçu approfondi des tendances et des caractéristiques du contenu Netflix, notamment les réalisateurs les plus populaires, la répartition des types de contenu, et la croissance des genres.
+
+## Jeu de données
+
+Le jeu de données contient des informations détaillées sur les films et séries présents sur Netflix, avec les colonnes suivantes :
+
+- **`show_id`** : ID unique pour chaque titre  
+- **`type`** : Type du contenu (Film ou Série)  
+- **`title`** : Titre du contenu  
+- **`director`** : Nom(s) du ou des réalisateur(s)  
+- **`cast`** : Noms des acteurs et actrices  
+- **`country`** : Pays d'origine du contenu  
+- **`date_added`** : Date d'ajout sur Netflix  
+- **`release_year`** : Année de sortie du contenu  
+- **`rating`** : Note attribuée au contenu (ex. PG, R, TV-MA)  
+- **`duration`** : Durée du contenu  
+- **`listed_in`** : Catégories ou genres auxquels le contenu appartient  
+- **`description`** : Description du contenu  
+
+## Objectifs du projet
+
+L'objectif de ce projet est d'analyser et de tirer des insights à partir du jeu de données Netflix. Voici les questions clés auxquelles ce projet répond :
+
+### Questions de niveau Débutant
+
+1. Combien de films et de séries sont présents dans le jeu de données ? Afficher le compte pour chaque type de contenu.
+2. Quel pourcentage de contenu n'a pas de pays associé ?
+
+### Questions de niveau Intermédiaire
+
+3. Quels sont les 3 réalisateurs ayant le plus de contenu sur Netflix ? Afficher le nom, le nombre de titres, et l'année de leur contenu le plus récent.
+4. Pour chaque année de 2015 à 2021, quel pourcentage de films et de séries ont été ajoutés sur Netflix ?
+
+### Question de niveau Avancé
+
+5. Quelle est la croissance moyenne mois après mois du contenu ajouté sur Netflix pour chaque genre ? Quels sont les 5 genres les plus en forte croissance ?
+
+## Outils et technologies utilisés
+
