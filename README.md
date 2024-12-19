@@ -61,6 +61,7 @@ file_path = 'sample_data/netflix_titles.csv'
 data = pd.read_csv(file_path, encoding='ISO-8859-1')
 
 data.head(), data.info()
+```
 
 Résultat
 
