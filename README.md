@@ -83,3 +83,18 @@ Résultat : Plusieurs colonnes inutiles (12 à 25) contiennent uniquement des va
 2. Charger ces données dans une base de données SQL pour des analyses avancées.
 3. Proposer des requêtes SQL pertinentes pour répondre aux problématiques métiers.
 4. Générer un fichier nettoyé prêt pour Power BI.
+
+
+Je vais commencer par nettoyer les données pour simplifier les analyses.
+Il est donc nécessaire de supprimer les colonnes inutiles:
+```python
+cleaned_data = data.loc[:, ~data.columns.str.contains('^Unnamed')]
+```
+
+```python
+# Sauvegarder les données nettoyées dans un fichier CSV pour Power BI
+cleaned_file_path = '/mnt/data/netflix_cleaned.csv'
+netflix_data_cleaned.to_csv(cleaned_file_path, index=False)
+
+cleaned_file_path
+```
