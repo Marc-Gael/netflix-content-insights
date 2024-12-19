@@ -79,10 +79,10 @@ data.head(), data.info()
 Résultat : Plusieurs colonnes inutiles (12 à 25) contiennent uniquement des valeurs nulles.
 
 #### Étapes suivantes :
-1. Nettoyer les colonnes inutiles.
-2. Charger ces données dans une base de données SQL pour des analyses avancées.
-3. Proposer des requêtes SQL pertinentes pour répondre aux problématiques métiers.
-4. Générer un fichier nettoyé prêt pour Power BI.
+1. Nettoyer les colonnes inutiles
+2. Générer un fichier nettoyé prêt à l'analyse
+3. Charger ces données dans une base de données SQL pour des analyses avancées
+4. Proposer des requêtes SQL pertinentes pour répondre aux problématiques métiers
 
 
 Je vais commencer par nettoyer les données pour simplifier les analyses.
@@ -91,10 +91,12 @@ Il est donc nécessaire de supprimer les colonnes inutiles:
 cleaned_data = data.loc[:, ~data.columns.str.contains('^Unnamed')]
 ```
 
-Sauvegarder les données nettoyées dans un fichier CSV pour SQL et Power BI
+Sauvegarder les données nettoyées dans un fichier CSV pour SQL
 ```python
 cleaned_file_path = '/mnt/data/netflix_cleaned.csv'
-netflix_data_cleaned.to_csv(cleaned_file_path, index=False)
+netflix_data_cleaned.to_csv(cleaned_file_path, index=False) # index=False empêchera python de créer de nouveaux index dans le fichier
 
 cleaned_file_path
 ```
+
+
