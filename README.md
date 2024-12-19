@@ -52,7 +52,20 @@ Ce projet utilise Python et Pandas pour charger et explorer un dataset contenant
    - **Aperçu** des 5 premières lignes.
    - **Résumé** des informations, y compris les types de colonnes et les valeurs manquantes.
 
-### Exemple de Code
+### Exemple de Code 1
+
+```python
+import pandas as pd
+
+file_path = 'sample_data/netflix_titles.csv'
+data = pd.read_csv(file_path)
+
+data.head(), data.info()
+```
+
+Résultat : Le fichier contient des caractères qui ne peuvent pas être lus avec l'encodage par défaut (utf-8). Je vais essayer un autre encodage (comme latin1 ou ISO-8859-1) pour charger les données correctement.
+
+### Exemple de Code 2
 
 ```python
 import pandas as pd
@@ -63,5 +76,10 @@ data = pd.read_csv(file_path, encoding='ISO-8859-1')
 data.head(), data.info()
 ```
 
-Résultat
+Résultat : Plusieurs colonnes inutiles (12 à 25) contiennent uniquement des valeurs nulles.
 
+#### Étapes suivantes :
+Nettoyer les colonnes inutiles.
+Charger ces données dans une base de données SQL pour des analyses avancées.
+Proposer des requêtes SQL pertinentes pour répondre aux problématiques métiers.
+Générer un fichier nettoyé prêt pour Power BI.
