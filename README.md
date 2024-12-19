@@ -91,8 +91,8 @@ Il est donc nécessaire de supprimer les colonnes inutiles:
 cleaned_data = data.loc[:, ~data.columns.str.contains('^Unnamed')]
 ```
 
+Sauvegarder les données nettoyées dans un fichier CSV pour SQL et Power BI
 ```python
-# Sauvegarder les données nettoyées dans un fichier CSV pour Power BI
 cleaned_file_path = '/mnt/data/netflix_cleaned.csv'
 netflix_data_cleaned.to_csv(cleaned_file_path, index=False)
 
