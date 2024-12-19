@@ -79,7 +79,7 @@ data.head(), data.info()
 Résultat : Plusieurs colonnes inutiles (12 à 25) contiennent uniquement des valeurs nulles.
 
 #### Étapes suivantes :
-Nettoyer les colonnes inutiles.
-Charger ces données dans une base de données SQL pour des analyses avancées.
-Proposer des requêtes SQL pertinentes pour répondre aux problématiques métiers.
-Générer un fichier nettoyé prêt pour Power BI.
+1. Nettoyer les colonnes inutiles.
+2. Charger ces données dans une base de données SQL pour des analyses avancées.
+3. Proposer des requêtes SQL pertinentes pour répondre aux problématiques métiers.
+4. Générer un fichier nettoyé prêt pour Power BI.
