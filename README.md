@@ -39,9 +39,9 @@ L'objectif de ce projet est d'analyser et de tirer des insights à partir du jeu
 
 5. Quelle est la croissance moyenne mois après mois du contenu ajouté sur Netflix pour chaque genre ? Quels sont les 5 genres les plus en forte croissance ?
 
-## Outils et technologies utilisés
+# Outils et technologies utilisés
 
-# Analyse des Données Netflix
+## Analyse des Données Netflix
 
 Ce projet utilise Python et Pandas pour charger et explorer un dataset contenant les titres disponibles sur Netflix, et SQL pour analyser les données.
 
@@ -60,7 +60,7 @@ import pandas as pd
 file_path = 'sample_data/netflix_titles.csv'
 data = pd.read_csv(file_path, encoding='ISO-8859-1')
 
-data.head(), data.info()
+data.head(), data.info()```
 
 
 
