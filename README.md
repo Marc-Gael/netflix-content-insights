@@ -41,3 +41,27 @@ L'objectif de ce projet est d'analyser et de tirer des insights à partir du jeu
 
 ## Outils et technologies utilisés
 
+# Analyse des Données Netflix
+
+Ce projet utilise Python et Pandas pour charger et explorer un dataset contenant les titres disponibles sur Netflix, et SQL pour analyser les données.
+
+## Étapes
+
+1. Chargement des données avec pandas.
+2. Inspection rapide des données dans un environnment Python (Jupyter Notebook):
+   - **Aperçu** des 5 premières lignes.
+   - **Résumé** des informations, y compris les types de colonnes et les valeurs manquantes.
+
+### Exemple de Code
+
+```python
+import pandas as pd
+
+file_path = 'sample_data/netflix_titles.csv'
+data = pd.read_csv(file_path, encoding='ISO-8859-1')
+
+data.head(), data.info()
+
+
+
+
