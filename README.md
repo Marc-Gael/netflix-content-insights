@@ -41,6 +41,12 @@ L'objectif de ce projet est d'analyser et de tirer des insights à partir du jeu
 
 # Outils et technologies utilisés
 
+- **SQL** : L'élément central de mon analyse, me permettant d'interroger la base de données et de découvrir des informations critiques.
+- **Python** : L'outil utilisé pour explorer er nettoyer les données.
+- **Jupyter Notebook** : Pour écrire du Python.
+- **MySQL** : Le système de gestion de base de données choisi.
+- **GitHub** : EPour le partage de mes scripts et analyses, permettant la collaboration et le suivi du projet.
+
 ## Analyse des Données Netflix
 
 Ce projet utilise Python et Pandas pour charger et explorer un dataset contenant les titres disponibles sur Netflix, et SQL pour analyser les données.
