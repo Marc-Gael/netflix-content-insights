@@ -24,7 +24,7 @@ data.head(), data.info()
 cleaned_data = data.loc[:, ~data.columns.str.contains('^Unnamed')]
 
 
-"""4. """
+"""4. Enregistrer le fichier nettoyé dans un chemin"""
 cleaned_file_path = 'sample_data/netflix_titles_cleaned.csv'
 cleaned_data.to_csv(cleaned_file_path, index=False)
 
