@@ -142,5 +142,5 @@ Voici les résultats des Top directeurs:
 - **RaÃºl Campos, Jan Suter:** Avec 18 titres, et 2018 comme année de sortie la plus récente.
 - **Marcus Raboy:** Avec 16 titres, et 2020 comme année de sortie la plus récente.
 
-![Top Paying Roles](assets/1_top_paying_roles.png)
+![Top Paying Roles](Assets/top_3_des_réalisateurs_ayant_le_plus_de_contenu_sur_Netflix.png)
 *Graphique représentant le top 3 des directeurs; généré à partir des résultats de la requêtes SQL.*
