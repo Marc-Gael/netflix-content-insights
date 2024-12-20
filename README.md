@@ -99,4 +99,25 @@ netflix_data_cleaned.to_csv(cleaned_file_path, index=False) # index=False empêc
 cleaned_file_path
 ```
 
+# QUELQUES ANALYSES
 
+
+### 1. Retrouvez le top 3 des réalisateurs ayant le plus de contenu sur Netflix
+Pour identifier les rôles les mieux rémunérés, j'ai filtré les postes d'analyste de données par salaire annuel moyen et localisation, en me concentrant sur les emplois à distance. Cette requête met en évidence les opportunités les mieux rémunérées dans le domaine.
+
+
+```sql
+SELECT director, COUNT(title) AS count_title, MAX(release_year) AS annee_plus_recente
+FROM netflix_titles_cleaned
+WHERE director IS NOT NULL AND director != ''
+GROUP BY director
+ORDER BY count_title DESC, annee_plus_recente DESC
+LIMIT 3;
+```
+Voici les résultats des Top directeurs:
+- **Rajiv Chilaka:** Avec 19 titres, et 2018 comme année de sortie la plus récente.
+- **RaÃºl Campos, Jan Suter:** Avec 18 titres, et 2018 comme année de sortie la plus récente.
+- **Marcus Raboy:** Avec 16 titres, et 2020 comme année de sortie la plus récente.
+
+![Top Paying Roles](assets/1_top_paying_roles.png)
+*Graphique représentant les salaires des 10 emplois les mieux rémunérés pour les analystes de données ; généré à partir des résultats de mes requêtes SQL.*
