@@ -120,4 +120,4 @@ Voici les résultats des Top directeurs:
 - **Marcus Raboy:** Avec 16 titres, et 2020 comme année de sortie la plus récente.
 
 ![Top Paying Roles](assets/1_top_paying_roles.png)
-*Graphique représentant les salaires des 10 emplois les mieux rémunérés pour les analystes de données ; généré à partir des résultats de mes requêtes SQL.*
+*Graphique représentant le top 3 des directeurs; généré à partir des résultats de la requêtes SQL.*
