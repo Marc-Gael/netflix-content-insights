@@ -174,6 +174,6 @@ Produit : Créer des profils de réalisateurs avec une sélection de leurs œuvr
 
 
 **Synthèse Stratégique**
-Engagement : Valoriser les séries comme piliers de fidélisation.
-Acquisition : Promouvoir le catalogue de films pour séduire une audience large.
-Rétention : Investir dans des contenus régionaux et des séries populaires pour répondre aux besoins diversifiés.
+- Engagement : Valoriser les séries comme piliers de fidélisation.
+- Acquisition : Promouvoir le catalogue de films pour séduire une audience large.
+- Rétention : Investir dans des contenus régionaux et des séries populaires pour répondre aux besoins diversifiés.
