@@ -143,9 +143,9 @@ GROUP BY YEAR(STR_TO_DATE(date_added, '%M %d, %Y'))
 ORDER BY year_added DESC;
 ```
 Voici les résultats des Top directeurs:
-- **Rajiv Chilaka:** Avec 19 titres, et 2018 comme année de sortie la plus récente.
-- **RaÃºl Campos, Jan Suter:** Avec 18 titres, et 2018 comme année de sortie la plus récente.
-- **Marcus Raboy:** Avec 16 titres, et 2020 comme année de sortie la plus récente.
+- **Dominance des Films (2015-2018)** : Netflix a initialement mis l’accent sur les films.
+- **Montée des Séries TV (2018-2021)** : La part des séries TV a augmenté, atteignant 45% en 2020, probablement en réponse à la demande croissante de contenus longs et immersifs.
+- **Adaptation aux Abonnés** : Netflix ajuste son catalogue pour captiver les abonnés, en misant sur les séries TV pour encourager le binge-watching.
 
-![Top Paying Roles](Assets/top_3_des_réalisateurs_ayant_le_plus_de_contenu_sur_Netflix.png)
-*Graphique représentant le top 3 des directeurs; créé avec Excel.*
+![Top Paying Roles](Assets/pourcentage_de_films_et_de_séries_télévisées_ajoutés_à_Netflix_(2015-2021).png)
+*Graphique représentant le pourcentage des contenus ajoutés sur Netflix de 20215 à 2021; créé avec Excel.*
