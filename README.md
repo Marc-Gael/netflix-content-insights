@@ -153,24 +153,15 @@ Voici les résultats des Top directeurs:
 
 # Conclusion
 **1. Diversification croissante du contenu**
-Insight : La part croissante des séries TV (de 30% en 2015 à 45% en 2020) montre une stratégie de fidélisation à travers des contenus récurrents et immersifs.
-Marketing : Mettre en avant les séries comme leviers d'engagement, avec des campagnes axées sur les nouvelles saisons et binge-watching.
-Produit : Renforcer les recommandations personnalisées basées sur les séries populaires et les habitudes de visionnage longues.
+- Insight : La part croissante des séries TV (de 30% en 2015 à 45% en 2020) montre une stratégie de fidélisation à travers des contenus récurrents et immersifs.
+- Marketing : Mettre en avant les séries comme leviers d'engagement, avec des campagnes axées sur les nouvelles saisons et binge-watching.
+- Produit : Renforcer les recommandations personnalisées basées sur les séries populaires et les habitudes de visionnage longues.
 
-**2. Prédominance du format film**
-Insight : Malgré la hausse des séries, les films restent dominants avec environ 55-65% du catalogue.
-Marketing : Positionner Netflix comme une plateforme complète pour les amateurs de films récents et classiques.
-Produit : Créer des playlists de films par thème ou par genre, inspirées du succès des playlists.
 
-**3. Tendance par année (Adaptabilité)**
-Insight : L’évolution de la répartition films/séries varie selon les années (pics de séries en 2020).
-Marketing : Lancer des campagnes saisonnières alignées avec ces tendances. Par exemple, plus de films pendant les fêtes et plus de séries durant l’été.
-Produit : Tester des sections « tendances de l’année » pour renforcer l’effet de nouveauté et la FOMO (Fear of Missing Out).
-
-**4. Contributions des réalisateurs influents**
-Insight : Certains réalisateurs dominent avec des sorties répétées (Rajiv Chilaka, Marcus Raboy).
-Marketing : Mettre en avant ces réalisateurs à travers des collections dédiées (« Le coin des réalisateurs stars »).
-Produit : Créer des profils de réalisateurs avec une sélection de leurs œuvres et des suggestions basées sur leur style.
+**2. Contributions des réalisateurs**
+- Insight : Certains réalisateurs dominent avec des sorties répétées (Rajiv Chilaka, Marcus Raboy).
+- Marketing : Mettre en avant ces réalisateurs à travers des collections dédiées.
+- Produit : Créer des profils de réalisateurs avec une sélection de leurs œuvres et des suggestions basées sur leur style.
 
 
 **Synthèse Stratégique**
