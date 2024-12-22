@@ -6,7 +6,7 @@ Ce projet explore le jeu de données des films et séries disponibles sur Netfli
 
 ## Jeu de données
 
-Le jeu de données est disponible [ici](https://github.com/Marc-Gael/netflix-content-insights/blob/main/Fichier%20originel/netflix_titles.csv) contient des informations détaillées sur les films et séries présents sur Netflix, avec les colonnes suivantes :
+Le jeu de données est disponible [ici](https://www.kaggle.com/datasets/rahulvyasm/netflix-movies-and-tv-shows?resource=download) contient des informations détaillées sur les films et séries présents sur Netflix, avec les colonnes suivantes :
 
 - **`show_id`** : ID unique pour chaque titre  
 - **`type`** : Type du contenu (Film ou Série)  
