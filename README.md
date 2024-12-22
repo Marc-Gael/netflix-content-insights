@@ -30,12 +30,12 @@ L'objectif de ce projet est d'analyser et de tirer des insights à partir du jeu
 1. Combien de films et de séries sont présents dans le jeu de données ? Afficher le compte pour chaque type de contenu.
 2. Quel pourcentage de contenu n'a pas de pays associé ?
 
-### Questions de niveau Intermédiaire
+### [Questions de niveau Intermédiaire](https://github.com/Marc-Gael/netflix-content-insights/blob/main/T%C3%A2ches_sql/Intermediate_questions.sql)
 
 3. Quels sont les 3 réalisateurs ayant le plus de contenu sur Netflix ? Afficher le nom, le nombre de titres, et l'année de leur contenu le plus récent.
 4. Pour chaque année de 2015 à 2021, quel pourcentage de films et de séries ont été ajoutés sur Netflix ?
 
-### Question de niveau Avancé
+### [Question de niveau Avancé](https://github.com/Marc-Gael/netflix-content-insights/blob/main/T%C3%A2ches_sql/Advanced_question.sql)
 
 5. Quelle est la croissance moyenne mois après mois du contenu ajouté sur Netflix pour chaque genre ? Quels sont les 5 genres les plus en forte croissance ?
 
