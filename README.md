@@ -25,7 +25,7 @@ Le jeu de données est disponible [ici](https://github.com/Marc-Gael/netflix-con
 
 L'objectif de ce projet est d'analyser et de tirer des insights à partir du jeu de données Netflix. Voici les questions clés auxquelles ce projet répond :
 
-### Questions de niveau Débutant
+### [Questions de niveau Débutant](https://github.com/Marc-Gael/netflix-content-insights/blob/main/T%C3%A2ches_sql/Beginner%20questions.sql)
 
 1. Combien de films et de séries sont présents dans le jeu de données ? Afficher le compte pour chaque type de contenu.
 2. Quel pourcentage de contenu n'a pas de pays associé ?
