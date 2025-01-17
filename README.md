@@ -140,7 +140,7 @@ WHERE YEAR(STR_TO_DATE(date_added, '%M %d, %Y')) BETWEEN 2015 AND 2021
 GROUP BY YEAR(STR_TO_DATE(date_added, '%M %d, %Y'))
 ORDER BY year_added DESC;
 ```
-Voici les résultats des Top directeurs:
+Résultats:
 - **Dominance des Films (2015-2018)** : Netflix a initialement mis l’accent sur les films.
 - **Montée des Séries TV (2018-2021)** : La part des séries TV a augmenté, atteignant 45% en 2020, probablement en réponse à la demande croissante de contenus longs et immersifs.
 - **Adaptation aux Abonnés** : Netflix ajuste son catalogue pour captiver les abonnés, en misant sur les séries TV pour encourager le binge-watching.
