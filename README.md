@@ -109,7 +109,6 @@ cleaned_file_path
 
 
 ### 1. Retrouvez le top 3 des réalisateurs ayant le plus de contenu sur Netflix
-Pour identifier les rôles les mieux rémunérés, j'ai filtré les postes d'analyste de données par salaire annuel moyen et localisation, en me concentrant sur les emplois à distance. Cette requête met en évidence les opportunités les mieux rémunérées dans le domaine.
 
 
 ```sql
