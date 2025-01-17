@@ -128,7 +128,6 @@ Voici les résultats des Top directeurs:
 *Graphique représentant le top 3 des directeurs; créé avec Excel.*
 
 ### 2. Calculez le pourcentage de films et de séries télévisées ajoutés à Netflix de 2015 à 2021
-Pour identifier les rôles les mieux rémunérés, j'ai filtré les postes d'analyste de données par salaire annuel moyen et localisation, en me concentrant sur les emplois à distance. Cette requête met en évidence les opportunités les mieux rémunérées dans le domaine.
 
 
 ```sql
